@@ -1,4 +1,7 @@
 # Project Overview
+This is how this particular trained agent looks like:
+
+![](tennis.gif)
 
 #### Learning algorithm
 
