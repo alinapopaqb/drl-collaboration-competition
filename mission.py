@@ -1,3 +1,7 @@
+"""
+This code is based on the code from DRL Nanodegree Program, DDPG
+"""
+
 import numpy as np
 import torch
 import torch.nn as nn

@@ -1,3 +1,6 @@
+"""
+This code is based on the code from DRL Nanodegree Program, DDPG
+"""
 
 import numpy as np
 import random
@@ -129,7 +132,6 @@ class Agent():
         # Backpropagate the loss
         self.critic_optimizer.zero_grad()
         critic_loss.backward()
-
         torch.nn.utils.clip_grad_norm(self.critic_local.parameters(), 1)
         self.critic_optimizer.step()
 
