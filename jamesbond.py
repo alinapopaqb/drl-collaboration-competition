@@ -18,10 +18,10 @@ LR_ACTOR = 1e-3         # learning rate of the actor
 LR_CRITIC = 1e-4        # learning rate of the critic
 RANDOM_SEED = 2         # Random seed to be used for replication
 EPS_DECAY = 0.7         # Epsilon decay used in the noise addition in act method
-EPS_END = 0.3           # Epsilon end start
-EPS_START = 1           # replay buffer size
-UPDATE_EVERY = 20       # replay buffer size
-UPDATE_TIMES=10         # replay buffer size
+EPS_END = 0.3           # Epsilon end value
+EPS_START = 1           # Epsilon start value
+UPDATE_EVERY = 20       # When to update
+UPDATE_TIMES=10         # How many times to update
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
