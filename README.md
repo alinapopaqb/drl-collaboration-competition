@@ -15,6 +15,8 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
+![](tennis.gif)
+
 
 ### Unity Environment
 After downloading the Unity Environment and saving it into the same folder where the main notebook `Continuous_Control.ipynb` sits, one can load the env by running the following code:
